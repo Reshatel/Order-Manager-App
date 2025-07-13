@@ -1,0 +1,18 @@
+[
+  {
+    "id": "270b8cef-bbf9-48e3-a28f-066b93f79789",
+    "name": "Олександр Македонський",
+    "device": "Iphone 19 Pro super max",
+    "price": "654",
+    "issue": "breack dynamic",
+    "comment": "+3800669754291",
+    "createdAt": "2025-04-10T20:27:00.589Z",
+    "completed": true,
+    "meta": {
+      "revision": 0,
+      "created": 1744317920200,
+      "version": 0
+    },
+    "$loki": 1
+  }
+]
