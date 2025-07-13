@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🧰 Order Manager App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A streamlined order-tracking system tailored for craftspersons and solo professionals to manage client orders, statuses, and job progress with clarity and control.
 
-## Available Scripts
+🔧 **Originally built for a real-life master artisan** who actively uses this tool in their daily workflow to manage incoming requests, track progress, and ensure timely delivery — the system reflects practical needs from hands-on experience.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+[https://reshatel.github.io/Order-Manager-App/](https://reshatel.github.io/Order-Manager-App/)
+![Screenshot: Dashboard Overview](src/assets/preview.png)
+![Screenshot: Order Details View](src/assets/preview2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Interactive dashboard with order status tracking
+* Create, edit, and delete orders with customer details
+* Filter orders by status (pending, in-progress, completed)
+* Local data backup — order data is stored in structured `.json` files
+* Example backup files included to demonstrate how data can be saved and restored on a user's computer
+* Perfect for workshop masters, freelancers, and service professionals
 
-### `npm test`
+## 🛠 Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [React](https://react.dev/)
+* [Loki-JS](https://loki.js.org/)
+* [React Scripts](https://create-react-app.dev/docs/getting-started/)
+* GitHub Pages deployment
 
-### `npm run build`
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Option 1: Local dev server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<pre>
+npm install  
+npm start
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Option 2: Serve from build folder
 
-### `npm run eject`
+#### Using http-server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<pre>
+cd path/to/build/folder  
+http-server
+</pre>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+➡️ Available at: **http://localhost:8080**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Using serve
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<pre>
+cd path/to/build/folder  
+serve -s .
+</pre>
 
-## Learn More
+➡️ Available at: **http://localhost:5000**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Build and Deploy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<pre>
+npm run build  
+npm run deploy
+</pre>
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Crafted for productive minds by [Reshatel](https://github.com/Reshatel) — simplifying task flow and helping artisans take charge of every order with peace of mind and professional precision.
