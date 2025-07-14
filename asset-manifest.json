@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Order-Manager-App/static/css/main.e3578b71.css",
-    "main.js": "/Order-Manager-App/static/js/main.cda66507.js",
+    "main.css": "/Order-Manager-App/static/css/main.78562f7a.css",
+    "main.js": "/Order-Manager-App/static/js/main.59206fe7.js",
     "static/js/453.7949d585.chunk.js": "/Order-Manager-App/static/js/453.7949d585.chunk.js",
     "index.html": "/Order-Manager-App/index.html",
-    "main.e3578b71.css.map": "/Order-Manager-App/static/css/main.e3578b71.css.map",
-    "main.cda66507.js.map": "/Order-Manager-App/static/js/main.cda66507.js.map",
+    "main.78562f7a.css.map": "/Order-Manager-App/static/css/main.78562f7a.css.map",
+    "main.59206fe7.js.map": "/Order-Manager-App/static/js/main.59206fe7.js.map",
     "453.7949d585.chunk.js.map": "/Order-Manager-App/static/js/453.7949d585.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3578b71.css",
-    "static/js/main.cda66507.js"
+    "static/css/main.78562f7a.css",
+    "static/js/main.59206fe7.js"
   ]
 }
