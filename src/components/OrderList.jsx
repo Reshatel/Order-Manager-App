@@ -121,7 +121,7 @@ const toggleMark = (id) => {
             {order.completed ? ' Виконано' : ' Не виконано'}
           </button>
 
-          <button
+          <button className='paid-button'
             onClick={() => toggleMark(order.id)}
             style={{
               backgroundColor: marked[order.id] ? '#28a745' : '#dc3545',
@@ -160,7 +160,7 @@ const toggleMark = (id) => {
             </button>
 
             {expandedFields[`menu-${order.id}`] && (
-              <div
+              <div className="gear-menu"
                 style={{
                   position: 'absolute',
                   top: '100%',
