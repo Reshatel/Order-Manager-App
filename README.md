@@ -4,6 +4,8 @@ A streamlined order-tracking system tailored for craftspersons and solo professi
 
 🔧 **Originally built for a real-life master artisan** who actively uses this tool in their daily workflow to manage incoming requests, track progress, and ensure timely delivery — the system reflects practical needs from hands-on experience.
 
+📱 **Mobile-friendly experience included** — designed to work seamlessly across smartphones and tablets, ensuring on-the-go access with intuitive controls and adaptive layout.
+
 ## Demo
 
 [https://reshatel.github.io/Order-Manager-App/](https://reshatel.github.io/Order-Manager-App/)
